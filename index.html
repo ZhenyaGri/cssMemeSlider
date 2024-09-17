@@ -8,14 +8,13 @@
 </head>
 <body>
     <div class="wrapper">
-        <input type="radio" name="point" id="s1" checked>
-        <input type="radio" name="point" id="s2">
-        <input type="radio" name="point" id="s3">
-        <input type="radio" name="point" id="s4">
-
-
-        <div class="slider">
-            <div class="slide">
+            
+        <input type="radio" name="point" id="r1" checked>
+        <input type="radio" name="point" id="r2">
+        <input type="radio" name="point" id="r3">
+        <input type="radio" name="point" id="r4">
+        <div class="slider ">
+            <div class="slide s1">
                 <img src="./memes/mem1.jpg" alt="">
             </div>
             <div class="slide">
@@ -28,18 +27,30 @@
                 <img src="./memes/mem4.jpg" alt="">
             </div>
         </div>
-
-
-        <div class="content">
-            <p>Таксист</p>
-            <div class="btns">
-                <label for="s1" class="btn"></label>
-                <label for="s2" class="btn"></label>
-                <label for="s3" class="btn"></label>
-                <label for="s4" class="btn"></label>
+        <div class="wrapper-content">
+            <div class="content">
+                <div class="p1" ><p>Таксист</p></div>
+                <div><p>Замятин</p></div>
+                <div><p>Русский перевод</p></div>
+                <div><p>Котик</p></div>
             </div>
-            
         </div>
+
+        <div class="btns">
+                <label for="r1">
+                    <div tabindex="0" class="btn one"></div>
+                </label>
+                <label for="r2">
+                    <div tabindex="0" class="btn"></div>
+                </label>
+                <label for="r3">
+                    <div tabindex="0" class="btn"></div>
+                </label>
+                <label for="r4">
+                    <div tabindex="0" class="btn"></div>
+                </label>
+        </div>
+        
     </div>
 </body>
 </html>
